@@ -1,0 +1,135 @@
+/* styles.css */
+html{
+
+    background-color: black;
+}
+header {
+    position: relative;
+    text-align: center;
+     /* Center the text horizontally */
+     background-color: black;
+
+    }
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+
+header h1 {
+    position: absolute;
+    top: 0%; /* Adjust vertical position */
+    ;
+    margin-left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center precisely */
+    color: black; /* Text color */
+    font-size: 62px; 
+    font-family: 'Open Sans', sans-serif;
+    
+    background-size: cover;
+    text-align: center;
+    font-weight: 500;
+    /* Adjust font size as needed */
+    
+
+    /* Add more styling properties as needed */
+}
+
+header h2{
+    position: absolute;
+    margin-top: 1.5%; /* Adjust vertical position */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center precisely */
+    color: white; /* Text color */
+    font-size: 35px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header h3{
+    position: absolute;
+    top: 0%; /* Adjust vertical position */
+    left: 1%; /* Center horizontally */
+     /* Center precisely */
+    color: black; /* Text color */
+    font-size: 20px; 
+    border-radius: 5%;
+
+}
+
+
+
+
+
+header {
+    position: relative;
+    text-align: center;
+     /* Set a fixed height for the header */
+    overflow: hidden; /* Hide overflow content */
+}
+
+button{
+
+    position: absolute;
+    color:black;
+    position: absolute;
+    text-align: center;
+    margin-left: 47%;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    width: 70px; /* Adjust the width as needed */
+    height: 30px;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: darkred;
+     /* Change background color on hover */
+}
+
+.image-overlay2{
+   
+    top: 0%;
+    display: flex;
+    
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    margin-left: 66%;
+    image-resolution:   from-image;
+    border: 1cm;
+    border-color: black;
+    object-fit:fill;
+}
+
+btn-primary custom-btn{
+
+    position: absolute;
+    
+    
+    text-align: center;
+    
+    
+    cursor: pointer;
+    
+    width: 70px; /* Adjust the width as needed */
+    height: 30px;
+    display: inline-block;
+}
+
+.image-button {
+    height: 30px;
+    width: 70px;
+    padding: 10px;
+    background: url('public/images/yt2.png') center center no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
